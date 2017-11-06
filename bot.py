@@ -9,7 +9,7 @@ MAILGUN_API_KEY = 'key-90629ec43738c8cbe97a6f98fc03bd26'
 MAILGUN_SANDBOX_URL = 'https://api.mailgun.net/v3/sandbox1eb6b7c1a60c4220a1350c50b13e870a.mailgun.org/messages'
 SEND_FROM_MAILGUN = '<radushin.arseny@yandex.ru>'
 SEND_TO_MAILGUN = '<radushin.arseny@yandex.ru>'
-bot = telebot.TeleBot(config.token_test)
+bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(regexp='/senddata')
 def send_complex_message(message):
