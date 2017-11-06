@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3396c333-505f-4173-a00d-8fba0bb46d1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.py" afterPath="$PROJECT_DIR$/bot.py" />
     </list>
     <ignored path="TrendsBot.iws" />
@@ -26,11 +25,11 @@
       <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="396">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
-                <element signature="e#486#1731#0" expanded="false" />
+                <element signature="e#480#1725#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -347,7 +346,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -437,7 +436,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#486#1731#0" expanded="false" />
+            <element signature="e#480#1725#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,7 +495,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#486#1731#0" expanded="false" />
+            <element signature="e#480#1725#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,7 +554,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#486#1731#0" expanded="false" />
+            <element signature="e#480#1725#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,7 +613,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#486#1731#0" expanded="false" />
+            <element signature="e#480#1725#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -673,7 +672,7 @@
           <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#486#1731#0" expanded="false" />
+            <element signature="e#480#1725#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -792,11 +791,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+        <state relative-caret-position="396">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#486#1731#0" expanded="false" />
+            <element signature="e#480#1725#0" expanded="false" />
           </folding>
         </state>
       </provider>
