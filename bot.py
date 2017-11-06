@@ -9,7 +9,7 @@ MAILGUN_API_KEY = 'key-90629ec43738c8cbe97a6f98fc03bd26'
 MAILGUN_SANDBOX_URL = 'https://api.mailgun.net/v3/sandbox1eb6b7c1a60c4220a1350c50b13e870a.mailgun.org/messages'
 SEND_FROM_MAILGUN = '<radushin.arseny@yandex.ru>'
 SEND_TO_MAILGUN = '<radushin.arseny@yandex.ru>'
-bot = telebot.TeleBot(config.token)
+bot = telebot.TeleBot(config.token_test )
 
 @bot.message_handler(regexp='/senddata')
 def send_complex_message(message):
@@ -45,11 +45,11 @@ def default_test(message):
         config.path.append('')
         config.name.append('')
         bot.send_message(message.chat.id,
-                         "Добрый день! Добро пожаловать в бот стратегического семинара МегаФон. Для обратной связи следуйте подсказкам бота. Для начала введите Ваши имя и фамилию")
+                         "Добрый день! Добро пожаловать в бот стратегического семинара. Для обратной связи следуйте подсказкам бота. Для начала введите Ваши имя и фамилию")
     else:
         config.path[config.users.index(message.chat.id)] = ''
         bot.send_message(message.chat.id,
-                         "С возвращением! Это бот стратегического семинара МегаФон. Для обратной связи следуйте подсказкам бота. Для начала введите Ваши имя и фамилию")
+                         "С возвращением! Это бот стратегического семинара. Для обратной связи следуйте подсказкам бота. Для начала введите Ваши имя и фамилию")
 
 
     config.name_waiting[config.users.index(message.chat.id)] = True
