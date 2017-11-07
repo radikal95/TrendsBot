@@ -121,7 +121,10 @@ def default_test(message):
     try:
         if config.waiting[config.users.index(message.chat.id)]  and config.name_waiting[config.users.index(message.chat.id)] == False:
             f = open(config.path[config.users.index(message.chat.id)],'a', encoding='utf-8')
-            f.write(message.chat.first_name+' '+message.chat.last_name+' known as ' + config.name[config.users.index(message.chat.id)]+' said: '+message.text + '\n')
+            try:
+                f.write(message.chat.first_name+' '+message.chat.last_name+' known as ' + config.name[config.users.index(message.chat.id)]+' said: '+message.text + '\n')
+            except:
+                f.write('NaN' + ' known as ' + config.name[config.users.index(message.chat.id)] + ' said: ' + message.text + '\n')
             f.close()
             keyboard = types.InlineKeyboardMarkup(row_width=1)
             url_button = types.InlineKeyboardButton(text="1. Тренд - новая возможность             ", callback_data=1)
@@ -132,7 +135,7 @@ def default_test(message):
             keyboard.add(url_button, url_button1, url_button2, url_button3, url_button4)
             bot.send_message(message.chat.id, "Окей, принято", reply_markup=keyboard)
             bot.send_message(message.chat.id,
-                             "_Если клавиатура не активна, просто напишите боту любое сообщение и следуйте инструкциям_", parse_mode='Markdown')
+                             "_Если клавиатура неактивна, просто напишите боту любое сообщение и следуйте инструкциям_", parse_mode='Markdown')
             config.waiting[config.users.index(message.chat.id)] = False
             config.path[config.users.index(message.chat.id)] = ''
     except IndexError:
@@ -167,8 +170,10 @@ pass
 
 while True:
     try:
+        print(1)
         bot.polling(none_stop=True)
     except:
+        print(2)
         continue
 
 
